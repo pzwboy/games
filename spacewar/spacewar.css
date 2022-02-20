@@ -1,0 +1,27 @@
+body {
+ background: white;
+ color: black;
+}
+
+div.frame {
+ margin-left: 10px;
+ position: relative;
+ width: 650px;
+ height: 550px;
+}
+
+div.spacewar {
+ position: absolute;
+ width: 650px;
+ height: 550px;
+ overflow: hidden;
+}
+
+canvas.spacewar {
+ background: black;
+ position: absolute;
+ width: 550px;
+ height: 550px;
+ top: 0px;
+ left: 100px;
+}
